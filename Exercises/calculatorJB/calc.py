@@ -1,10 +1,10 @@
 listOfOperators = ['+', '-', 'x', '/']
 
 ops = {
-    '+' : lambda x, y: x + y,
-    '-' : lambda x, y: x - y,
-    'x' : lambda x, y: x * y,
-    '/' : lambda x, y: x / y,
+    '+': lambda x, y: x + y,
+    '-': lambda x, y: x - y,
+    'x': lambda x, y: x * y,
+    '/': lambda x, y: x / y,
 }
 
 while True:
