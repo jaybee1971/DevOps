@@ -3,11 +3,11 @@ runningTotal = 0
 n = 0
 
 ops = {
-    '+' : lambda x, y: x + y,
-    '-' : lambda x, y: x - y,
-    'x' : lambda x, y: x * y,
-    '/' : lambda x, y: x / y,
-    '^' : lambda x, y: x ^ y,
+    '+': lambda x, y: x + y,
+    '-': lambda x, y: x - y,
+    'x': lambda x, y: x * y,
+    '/': lambda x, y: x / y,
+    '^': lambda x, y: x ^ y,
 }
 
 f = open("step2", mode='r')
